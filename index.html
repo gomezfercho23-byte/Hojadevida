@@ -8,7 +8,6 @@
   <body>
     <header>
       <hr />
-      <hr />
       <h1>Dario Fernando Gomez</h1>
       <h2>Ingeniero de sistemas</h2>
       <img
@@ -19,22 +18,33 @@
     </header>
 
     <hr />
-    <hr />
     <main>
       <section class="seccion" id="Contacto">
         <h2>Contacto</h2>
-        <p>gomezfercho23@gmail.com</p>
-        <p>3152517571</p>
+        <p>
+          <a href="mailto:gomezfercho23@gmail.com">gomezfercho23@gmail.com</a>
+        </p>
+        <p><a href="tel:3152517571">3152517571</a></p>
         <p>Pasto Nariño, Colombia</p>
+        <h3>Enviame un mensaje.</h3>
+        <form action="">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" /><br /><br />
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required /><br /><br />
+          <label for="mensaje">Mensaje:</label><br />
+          <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí" required></textarea
+          ><br /><br />
+          <input type="submit" value="Enviar" />
+        </form>
       </section>
-      <hr />
       <hr />
       <section class="seccion" id="Redes">
         <h2>Mis Redes Sociales</h2>
-        <p>• <a href="#">Instagram</a></p>
-        <p>• <a href="#">WhatsApp</a></p>
+        <li>
+          <a href="www.linkedin.com">Linkedin </a>
+        </li>
       </section>
-      <hr />
       <hr />
       <section class="seccion" id="Educacion">
         <article>
@@ -43,7 +53,6 @@
           <p>• <a>Tecnico en programacion de software</a></p>
         </article>
       </section>
-      <hr />
       <hr />
       <section class="seccion" id="Experiencia">
         <article>
@@ -77,7 +86,6 @@
         </article>
       </section>
       <hr />
-      <hr />
       <section class="seccion" id="Habilidades">
         <h2>Habilidades</h2>
         <p>
@@ -86,12 +94,10 @@
         </p>
       </section>
       <hr />
-      <hr />
       <section class="seccion" id="Proyectos">
         <h2>Proyectos</h2>
         <p>Por el momento no tengo proyectos en la programacion</p>
       </section>
-      <hr />
       <hr />
       <section class="seccion" id="Pasatiempos">
         <h2>Estos son mis pasatiempos favoritos</h2>

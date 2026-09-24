@@ -1,0 +1,34 @@
+body{
+    background-color:#1e9ebec0;
+    color: #0d1117;
+    font-family:"Bubbler One", Sans-serif;
+}
+
+h1{
+    color: #4e6585;
+    font-size: 40px;
+
+
+}
+
+.seccion{
+    background-color: rgba(2, 11, 27, 0.295);
+
+}
+#perfil{
+    background-color: #075481be;
+
+}
+
+h2{
+    color: #03142b;
+    font-size: 28px;
+}
+
+h3{
+     font-size: 20px;
+}
+
+p{
+    line-height: 1.6;
+}

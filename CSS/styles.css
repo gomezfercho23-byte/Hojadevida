@@ -1,34 +1,126 @@
 body{
-    background-color:#1e9ebec0;
-    color: #0d1117;
-    font-family:"Bubbler One", Sans-serif;
-}
+    margin:0;
 
+   background-color: rgb(255, 255, 255);
+   color: #333;
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+}
 h1{
-    color: #4e6585;
+    color: #1f2937;
     font-size: 40px;
-
-
-}
-
-.seccion{
-    background-color: rgba(2, 11, 27, 0.295);
-
-}
-#perfil{
-    background-color: #075481be;
-
 }
 
 h2{
-    color: #03142b;
-    font-size: 28px;
+    color: #1867d6;
+    font-size: 40px;
 }
-
 h3{
-     font-size: 20px;
+    color: #1f2937;
+    font-size: 20px;
 }
 
 p{
     line-height: 1.6;
 }
+.formacion, .experiencia, .habilidades, .proyectos, .contacto{
+    background-color: #f7f1f1;
+    padding: 15px;
+    margin: 15px;
+    border:1px solid #ddd;
+    border-radius:10px ;
+    margin-bottom: 20px
+}
+.habilidades {
+    background-color: #f7f1f1;
+}
+#perfil {
+    background-color: rgb(255, 255, 255);
+    }
+section{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 20px;
+    border:1px solid #ddd;
+    border-radius:10px ;
+}
+header{
+   background-color: rgb(13, 97, 161);
+   color: rgb(253, 253, 253);
+   text-align: center;
+}
+
+header h1{
+    color: #1f2937;
+   
+}
+header h2{
+    color: #1f2937;
+  
+}
+header h3{
+    color: #1f2937;
+  
+}
+
+a{
+    color: #2563eb;
+    text-decoration:;
+}
+
+
+
+ul{
+padding-left:20px;
+
+}
+li{
+    margin-bottom:5px;
+}
+
+form{
+    margin-top: 20px;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+
+}
+
+textarea{
+    min-height: 120px;
+    resize:vertical;
+}
+button{
+    background-color: #2563eb;
+    color:white;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+    }
+th,td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+
+}
+th{
+    background-color: #1f2937;
+    color:white;
+}    

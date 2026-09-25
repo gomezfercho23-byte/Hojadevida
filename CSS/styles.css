@@ -1,126 +1,138 @@
-body{
-    margin:0;
+body {
+  margin: 0;
 
-   background-color: rgb(255, 255, 255);
-   color: #333;
-   font-family: Arial, sans-serif;
-   line-height: 1.6;
+  background-color: rgb(255, 255, 255);
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
-h1{
-    color: #1f2937;
-    font-size: 40px;
-}
-
-h2{
-    color: #1867d6;
-    font-size: 40px;
-}
-h3{
-    color: #1f2937;
-    font-size: 20px;
+h1 {
+  color: #104288;
+  font-size: 40px;
 }
 
-p{
-    line-height: 1.6;
+h2 {
+  color: #1867d6;
+  font-size: 40px;
 }
-.formacion, .experiencia, .habilidades, .proyectos, .contacto{
-    background-color: #f7f1f1;
-    padding: 15px;
-    margin: 15px;
-    border:1px solid #ddd;
-    border-radius:10px ;
-    margin-bottom: 20px
+h3 {
+  color: #385885;
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+.formacion,
+.experiencia,
+.habilidades,
+.proyectos,
+.contacto {
+  background-color: #f7f1f1;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 .habilidades {
-    background-color: #f7f1f1;
+  background-color: #f7f1f1;
 }
 #perfil {
-    background-color: rgb(255, 255, 255);
-    }
-section{
-    background-color: rgb(255, 255, 255);
-    padding: 25px;
-    margin: 20px;
-    border:1px solid #ddd;
-    border-radius:10px ;
+  background-color: rgb(255, 255, 255);
 }
-header{
-   background-color: rgb(13, 97, 161);
-   color: rgb(253, 253, 253);
-   text-align: center;
+section {
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
-
-header h1{
-    color: #1f2937;
-   
-}
-header h2{
-    color: #1f2937;
-  
-}
-header h3{
-    color: #1f2937;
-  
+header {
+  background-color: rgb(54, 78, 97);
+  color: rgb(253, 253, 253);
+  text-align: center;
 }
 
-a{
-    color: #2563eb;
-    text-decoration:;
+header h1 {
+  color: #1f2937;
+}
+header h2 {
+  color: #1f2937;
+}
+header h3 {
+  color: #1f2937;
 }
 
-
-
-ul{
-padding-left:20px;
-
-}
-li{
-    margin-bottom:5px;
+a {
+  color: #0b3183;
+  text-decoration: underline;
 }
 
-form{
-    margin-top: 20px;
+ul {
+  padding-left: 20px;
 }
-label{
-    display:block;
-    margin-bottom: 5px;
-    font-weight: bold;
+li {
+  margin-bottom: 5px;
+}
+
+form {
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 input,
-textarea{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-family: inherit;
-
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #5f5b63;
+  border-radius: 6px;
+  font-family: inherit;
 }
 
-textarea{
-    min-height: 120px;
-    resize:vertical;
+textarea {
+  min-height: 120px;
+  resize: vertical;
 }
-button{
-    background-color: #2563eb;
-    color:white;
-    border:none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    cursor: pointer;
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
 }
-table{
-    width: 100%;
-    border-collapse: collapse;
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #1f2937;
+  color: white;
+}
 
-    }
-th,td{
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
-th{
-    background-color: #1f2937;
-    color:white;
-}    
+footer p {
+  color: white;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
